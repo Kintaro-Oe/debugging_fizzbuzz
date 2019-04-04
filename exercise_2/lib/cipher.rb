@@ -6,7 +6,6 @@ p "HELLO"
       (65 + cipher.find_index(char)).chr
     end
     ciphertext_chars.join
-    p ciphertext_chars.join
   end
 
   def decode(ciphertext, key)
